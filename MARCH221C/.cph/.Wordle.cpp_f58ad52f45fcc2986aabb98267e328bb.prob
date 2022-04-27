@@ -1,0 +1,1 @@
+{"name":"Local: Wordle","url":"c:\\github\\codechef\\MARCH221C\\Wordle.cpp","tests":[{"id":1647229682297,"input":"3\nABCDE\nEDCBA\nROUND\nRINGS\nSTART\nSTUNT","output":"BBGBB\nGBBBB\nGGBBG"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\github\\codechef\\MARCH221C\\Wordle.cpp","group":"local","local":true}
