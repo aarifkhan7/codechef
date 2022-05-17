@@ -1,32 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 void solve(){
     int n; cin >> n;
-    int lens[n];
-
-    for(int i = 0; i < n; i++)
-        cin >> lens[i];
-    
-    sort(lens, lens + n);
-
-    int last = -1;
-    int count = 0;
-
+    set<int> lens;
     for(int i = 0; i < n; i++){
-        if(last != lens[i]){
-            count++;
-            last = lens[i];
-        }
+        int tmp; cin >> tmp;
+        lens.insert(tmp);
     }
-    cout << count << '\n';
+    if(lens.find(0) == lens.end()){
+        cout << lens.size() << '\n';
+    }else{
+        cout << lens.size() - 1 << '\n';
+    }
 }
 
-int main()
-{
+int main() {
     int t; cin >> t;
     while(t--){
         solve();
     }
-    return 0;
+	return 0;
 }
