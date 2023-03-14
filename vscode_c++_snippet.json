@@ -30,7 +30,6 @@
 			"#define all(x) x.begin(), x.end()",
 			"#define loop(a, b) for(int i = a; i < b; i++)",
 			"#define loop1(a, b) for(int j = a; j < b; j++)",
-			"#define printp(cont) for(auto x : cont) cout << x.first << ' ' << x.second << '\\n';",
             "#define fast ios_base::sync_with_stdio(false), cin.tie(nullptr), cout.tie(nullptr);",
 			"#define pii pair<int,int>",
 			"#define ff first",
