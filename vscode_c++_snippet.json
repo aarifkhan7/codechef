@@ -25,7 +25,7 @@
 			"// Github: https://github.com/aarifkhan7",
 			"",
 			"#define pi (3.141592653589)",
-			"#define MOD 1e9+7",
+			"#define MOD 1000000007",
 			"#define ll long long int",
 			"#define all(x) x.begin(), x.end()",
 			"#define rep(i, a, b) for(int i = a; i < b; i++)",
@@ -57,6 +57,14 @@
 			"	}",
             "    return 0;",
             "}"
+		],
+		"description": "CP C++ Boilerplate"
+	},
+	"usaco file in/out":{
+		"prefix": "usacoinout",
+		"body": [
+			"freopen(\"$0problemname.in\", \"r\", stdin);",
+			"freopen(\"$0problemname.out\", \"w\", stdout);"
 		],
 		"description": "CP C++ Boilerplate"
 	}
